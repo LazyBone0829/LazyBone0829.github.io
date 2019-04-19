@@ -1850,7 +1850,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff4e;
+  background: #ffff87;
 }
 .feed-link,
 .chat {
@@ -2040,7 +2040,7 @@ pre .javascript .function {
 .with-love {
   display: inline-block;
   margin: 0 5px;
-  color: #808080;
+  color: #FBBC05;
 }
 .powered-by,
 .theme-info {
