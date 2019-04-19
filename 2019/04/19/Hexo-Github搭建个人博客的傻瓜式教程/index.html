@@ -96,13 +96,13 @@
 
 
 
-  <meta name="description" content="详细演示Hexo+Github个人博客的搭建 1.准备工作：安装好node.js (https://nodejs.org/en/)和git (https://git-scm.com/) 2.创建仓库：在你的GitHub上新建一个名为username.github.io的仓库,其中username是你的用户名（比如你的GitHub用户名为abc，那么你就新建名为abc.github.io的仓库）仓库">
+  <meta name="description" content="详细演示Hexo+Github个人博客的搭建 1.准备工作：安装好node.js (https://nodejs.org/en/)">
 <meta name="keywords" content="Hexo,GitHub,博客,教程">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo+Github搭建个人博客的图文教程">
 <meta property="og:url" content="http://yoursite.com/2019/04/19/Hexo-Github搭建个人博客的傻瓜式教程/index.html">
 <meta property="og:site_name" content="无名小站">
-<meta property="og:description" content="详细演示Hexo+Github个人博客的搭建 1.准备工作：安装好node.js (https://nodejs.org/en/)和git (https://git-scm.com/) 2.创建仓库：在你的GitHub上新建一个名为username.github.io的仓库,其中username是你的用户名（比如你的GitHub用户名为abc，那么你就新建名为abc.github.io的仓库）仓库">
+<meta property="og:description" content="详细演示Hexo+Github个人博客的搭建 1.准备工作：安装好node.js (https://nodejs.org/en/)">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/node安装.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/git安装.png">
@@ -117,6 +117,8 @@
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/自报家门-用户名.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/自报家门-邮箱.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/初始化Hexo.png">
+<meta property="og:image" content="http://yoursite.com/source/uploads/Snipaste/cd-folder_LI.jpg">
+<meta property="og:image" content="http://yoursite.com/source/uploads/Snipaste/npm-install.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/指定文件夹大致应该是这样.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/Git-Bash-here.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/本地生成.png">
@@ -125,10 +127,10 @@
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/安装hexo-deployer-git.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/部署.png">
 <meta property="og:image" content="http://yoursite.com/uploads/Snipaste/博客完成.png">
-<meta property="og:updated_time" content="2019-04-19T06:57:26.510Z">
+<meta property="og:updated_time" content="2019-04-19T12:53:23.525Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+Github搭建个人博客的图文教程">
-<meta name="twitter:description" content="详细演示Hexo+Github个人博客的搭建 1.准备工作：安装好node.js (https://nodejs.org/en/)和git (https://git-scm.com/) 2.创建仓库：在你的GitHub上新建一个名为username.github.io的仓库,其中username是你的用户名（比如你的GitHub用户名为abc，那么你就新建名为abc.github.io的仓库）仓库">
+<meta name="twitter:description" content="详细演示Hexo+Github个人博客的搭建 1.准备工作：安装好node.js (https://nodejs.org/en/)">
 <meta name="twitter:image" content="http://yoursite.com/uploads/Snipaste/node安装.png">
 
 
@@ -222,7 +224,7 @@
     </div>
     
       
-        <p class="site-subtitle">因为热爱</p>
+        <p class="site-subtitle">点燃心中的热爱</p>
       
     
     
@@ -369,7 +371,7 @@
                 
               
 
-              <time title="创建时间：2019-04-19 14:02:30 / 修改时间：14:57:26" itemprop="dateCreated datePublished" datetime="2019-04-19T14:02:30+08:00">2019-04-19</time>
+              <time title="创建时间：2019-04-19 14:02:30 / 修改时间：20:53:23" itemprop="dateCreated datePublished" datetime="2019-04-19T14:02:30+08:00">2019-04-19</time>
             
 
             
@@ -416,14 +418,13 @@
 
       
         <p>详细演示Hexo+Github个人博客的搭建</p>
-<p>1.准备工作：<br>安装好node.js (<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>)<br><img src="/uploads/Snipaste/node安装.png"><br>和<br>git (<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a>)<br><img src="/uploads/Snipaste/git安装.png"></p>
+<p>1.准备工作：<br>安装好node.js (<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>)<br><a id="more"></a><br><img src="/uploads/Snipaste/node安装.png"><br>和<br>git (<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a>)<br><img src="/uploads/Snipaste/git安装.png"></p>
 <p>2.创建仓库：<br>在你的GitHub上新建一个名为username.github.io的仓库,其中username是你的用户名<br>（比如你的GitHub用户名为abc，那么你就新建名为abc.github.io的仓库）<br><img src="/uploads/Snipaste/创建库.png"><br>仓库创建成功不会立即生效，需要过一段时间</p>
 <p>3.配置SSH key：<br>用第1步安装的git bash执行以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~/. ssh</span><br></pre></td></tr></table></figure><br><img src="/uploads/Snipaste/进入ssh目录.png"><br>如果提示：No such file or directory 说明是第一次进行配置<br>接着，使用以下命令生成ssh公钥和私钥<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;your_email@youremail.com&quot;</span><br></pre></td></tr></table></figure><br>其中<a href="mailto:your_email@youremail.com" target="_blank" rel="noopener">your_email@youremail.com</a>改为你的邮箱，（比如ssh-keygen -t rsa -C “<a href="mailto:10000@qq.com" target="_blank" rel="noopener">10000@qq.com</a>“）<br>接着按三次回车，分别表示<br>在默认位置保存key；<br>设为空密码 ；<br>确认设为空密码<br><img src="/uploads/Snipaste/生成ssh公钥和私钥.png"><br>然后再默认位置（一般是在用户目录下）找到.ssh\id_rsa.pub文件，用记事本打开并复制里面的全部内容<br><img src="/uploads/Snipaste/复制id_rsa.pub内容.png"><br>打开你的GitHub主页，进入setting -&gt; SSH and GPG keys 点击绿色的New SSH key按钮，<br><img src="/uploads/Snipaste/Github-setting.png"><br><img src="/uploads/Snipaste/setting-SSH.png"><br>将刚才复制的内容粘贴在Key里，Title则可以随便填，然后点Add SSH key保存，<br>这时，系统提示输入你的GitHub密码（注意是GitHub密码不是刚才设置的SSH key的空密码）输入好密码点Comfirm Password就可以了<br>这是应该可以看见GitHub里有你刚刚配置好的SSH key了<br><img src="/uploads/Snipaste/New-SSH-key.png"><br>下面在git bash里面输入以下代码测试一下配置是否成功：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><br>（！注意，不要把后面的<a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>替换成你的邮箱！）<br>如果提示Are you sure you want to continue connecting (yes/no)?  ,输入yes 并按一下回车<br>然后如果看到You’ve successfully authenticated, but GitHub does not provide shell access.说明SSH key配置成功！<br><img src="/uploads/Snipaste/测试SHH配置.png"><br>接着还需要配置：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;xxx&quot;		//将xxx替换成你的GitHub用户名</span><br><span class="line">git config --global user.email &quot;xxx@xx.com&quot;		//将xxx@xx.com替换成你的GitHub注册邮箱</span><br></pre></td></tr></table></figure>
 <img src="/uploads/Snipaste/自报家门-用户名.png">
 <img src="/uploads/Snipaste/自报家门-邮箱.png">
-<p>4.安装和初始化Hexo：<br>使用npm即可完成Hexo 的安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><br>（建议使用命令提示符安装，因为在git bash下安装不能显示进度条）<br><img src="/uploads/Snipaste/初始化Hexo.png"><br>接着执行下列命令，Hexo将会在指定文件夹新建所需要的文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><br>其中<folder>替换成你想要的博客文件的指定路径，如 hexo init D:\blog 和 cd D:\blog (！注意，如果在C盘，不能直接cd进D盘的子目录，应先执行 D: 然后 cd D:\blog)<br>接着执行npm install 就行了</folder></p>
-<p>这时，指定文件夹大致应该是这样：<br><img src="/uploads/Snipaste/指定文件夹大致应该是这样.png"><br>其中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">_config.yml是网站的配置信息。</span><br><span class="line">package.json是应用程序的信息。</span><br><span class="line">scaffolds是模板文件夹。当您新建文章时Hexo 会根据 scaffold 来建立文件。Hexo的模板是指在新建的.md文件中默认填充的内容。例如，如果您修改scaffold/post.md中的Front-matter内容，那么每次新建一篇文章时都会包含这个修改。</span><br><span class="line">source是资源文件夹。除 _posts 文件夹之外，开头命名为 _ (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。</span><br><span class="line">themes是主题文件夹。Hexo会根据主题来生成静态页面。</span><br></pre></td></tr></table></figure>    </p>
+<p>4.安装和初始化Hexo：<br>使用npm即可完成Hexo 的安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><br>（建议使用命令提示符安装，因为在git bash下安装不能显示进度条）<br><img src="/uploads/Snipaste/初始化Hexo.png"><br>接着执行下列命令，Hexo将会在指定文件夹新建所需要的文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><br>其中<folder>替换成你想要的博客文件的指定路径，如 hexo init D:\blog 和 cd D:\blog (！注意，如果在C盘，不能直接cd进D盘的子目录，应先执行 D: 然后 cd D:\blog)<br><img src="/source/uploads/Snipaste/cd-folder_LI.jpg"><br>接着执行npm install 就行了<br><img src="/source/uploads/Snipaste/npm-install.png"><br>这时，指定文件夹大致应该是这样：<br><img src="/uploads/Snipaste/指定文件夹大致应该是这样.png"><br>其中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">_config.yml是网站的配置信息。</span><br><span class="line">package.json是应用程序的信息。</span><br><span class="line">scaffolds是模板文件夹。当您新建文章时Hexo 会根据 scaffold 来建立文件。Hexo的模板是指在新建的.md文件中默认填充的内容。例如，如果您修改scaffold/post.md中的Front-matter内容，那么每次新建一篇文章时都会包含这个修改。</span><br><span class="line">source是资源文件夹。除 _posts 文件夹之外，开头命名为 _ (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。</span><br><span class="line">themes是主题文件夹。Hexo会根据主题来生成静态页面。</span><br></pre></td></tr></table></figure>    </folder></p>
 <p>5.部署：<br>从资源管理器进入刚才的文件夹，右键点击Git Bash Here，依次执行下列指令：<br><img src="/uploads/Snipaste/Git-Bash-here.png"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><br><img src="/uploads/Snipaste/本地生成.png"><br>然后打开浏览器，在地址栏输入 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 你会看见Hexo帮我们生成了默认的博客样式<br><img src="/uploads/Snipaste/本地博客.png"><br>然后接着刚才的指令，在Git Bash窗口在按Ctrl+C结束查看</p>
 <p>接着进行部署：<br>在开始之前，先用记事本打开网站配置文件_config.yml，将最后的配置信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type:</span><br></pre></td></tr></table></figure><br>改成<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/username/username.github.io.git //其中username是你的用户名</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><br>（其中repo的值为你在GitHub项目里面的SSH）<br>（！注意type:和git之际有一个空格！后面的设置亦如此）<br><img src="/uploads/Snipaste/配置deploy.png"><br>紧接着执行下列命令安装 hexo-deployer-git<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><br>（建议使用命令提示符安装，因为在git bash下安装不能显示进度条）<br><img src="/uploads/Snipaste/安装hexo-deployer-git.png"><br>然后在Git Bash下依次执行下列指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><br><img src="/uploads/Snipaste/部署.png"><br>（可能弹框提示需要输入GitHub用户名和密码）<br>最后提示：INFO Deploy done: git 说明成功了<br>然后在浏览器输入 <a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a> （其中username是你的用户名）就可以访问Hexo默认生成的博客了。<br><img src="/uploads/Snipaste/博客完成.png"></p>
 
