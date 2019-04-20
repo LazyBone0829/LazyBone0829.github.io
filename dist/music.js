@@ -2,6 +2,7 @@ const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
 	showlrc: 3,
+	lrcType: 3,
 	theme: '#e9e9e9',
     autoplay: false,
     audio: [
